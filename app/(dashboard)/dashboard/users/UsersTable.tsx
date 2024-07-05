@@ -48,9 +48,9 @@ import EditUser from "./EditUser";
               <TableCell className="font-medium">{user.name}</TableCell>
               <TableCell>{user.email}</TableCell>
               <TableCell>{user.phone}</TableCell>
-              <TableCell> <Badge variant="outline"> {user.department}</Badge></TableCell>
+              <TableCell> <Badge variant="outline"> {!user.department ? "Not Assigned" : user.department}</Badge></TableCell>
               <TableCell className="">
-                <Badge variant="secondary"> {user.title}</Badge>{" "}
+                <Badge variant="secondary"> {!user.title ? "Not Assigned" : user.title}</Badge>{" "}
               </TableCell>
               <TableCell className="">{user.role}</TableCell>
               <TableCell className="text-right"> 
