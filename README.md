@@ -1,7 +1,7 @@
 # Leave Managment System (Leave-Maker)
 
 # Overview
-[Leave-Maker](https://leave-maker.vercel.app)  is a web application designed to manage employee leave requests and approvals. It uses Next.js for the frontend, NextAuth.js for authentication, and Prisma as the ORM for database interactions.
+[Leave-Maker](https://leave-maker.vercel.app)  is a web application designed to manage employee leave requests and approvals. It uses Next.js for the frontend, NextAuth.js for authentication, and Prisma as the ORM for database interactions. The application also utilises Next.js API router to send API calls to a prisma client for creating entries to the database as well as server actions to interact with the database. 
 
 # Table of Contents
 1. Getting Started
