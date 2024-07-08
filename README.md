@@ -278,7 +278,7 @@ export const authOptions: NextAuthOptions = {
 ```
 
 This code is configuring NextAuth.js for authentication in a Next.js application. It sets up Google as an authentication provider and uses Prisma as the database adapter. It also includes custom sign-in behavior, JWT handling, and session management.
-For full break-down of what this code does check out my Blog on...
+For full break-down of what this code does check out my Blog on [Confluence](https://loxtiondigital.atlassian.net/l/cp/Bjdc5Pw0) 
 
 # Databse Schema
 The database schema is defined in the Prisma schema file (`prisma/schema.prisma`). The main models are:
@@ -427,4 +427,4 @@ Deploy the application to a hosting provider that supports Node.js applications 
 - **Prisma generate Issues**: Ensure to enclude the `prisma generate` statement in the build section of your package.json when deploying the application in a production environment. 
 
 
-This documentation provides a basic overview of the application, an in-depth documentation can be found on my Blog.
+This documentation provides a basic overview of the application, an in-depth documentation can be found on my Blog on [Confluence](https://loxtiondigital.atlassian.net/l/cp/Bjdc5Pw0).
