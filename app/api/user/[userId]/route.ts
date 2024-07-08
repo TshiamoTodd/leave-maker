@@ -2,6 +2,8 @@ import { getCurrentUser } from "@/lib/session";
 import { Role } from "@prisma/client";
 import { NextResponse } from "next/server";
 
+import prisma from "@/lib/prisma";
+
 type EditUserBody = {
   phone: string;
   department: string;
